@@ -1,0 +1,33 @@
+{
+  "name": "mr-worldwide",
+  "version": "1.0.0",
+  "description": "Tiny OSM (Open Street Maps) API Wrapper",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanThatOneKid/mr-worldwide.git"
+  },
+  "keywords": [
+    "osm",
+    "maps",
+    "open",
+    "street",
+    "open-source",
+    "worldwide",
+    "pokemongo",
+    "niantic",
+    "etok"
+  ],
+  "author": "EthanThatOneKid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EthanThatOneKid/mr-worldwide/issues"
+  },
+  "homepage": "https://github.com/EthanThatOneKid/mr-worldwide#readme"
+}
