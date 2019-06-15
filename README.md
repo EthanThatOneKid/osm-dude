@@ -1,5 +1,5 @@
-# mr-worldwide
-🌐 Tiny OSM (Open Street Maps) API wrapper
+# 🌐 Mr. Worldwide
+> Tiny OSM (Open Street Maps) API wrapper
 
 ## Reference
 * [Amenities List](https://wiki.openstreetmap.org/wiki/Key:amenity)
