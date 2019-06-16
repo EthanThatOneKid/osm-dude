@@ -58,8 +58,8 @@ osm.init();
 * returns the data specified in the pre-defined element interactions from [`setFeatureData`](#setfeaturedataelementinteractions).
 ### `checkUnderneath(player)`
 * where `player` is a supposed object of keys `x` and `y` representing a relative position within the mapped bounds of the `MrWorldwide` instance.
-* this is an alias who's input acts as [`getCollisions`](getcollisionsplayer)'s and who's output acts as [`getElementInteractions`](getelementinteractionsels)'s.
-* shares the same return convention as [`getElementInteractions`](getelementinteractionsels)'s.
+* this is an alias who's input acts as [`getCollisions`](#getcollisionsplayer)'s and who's output acts as [`getElementInteractions`](#getelementinteractionsels)'s.
+* shares the same return convention as [`getElementInteractions`](#getelementinteractionsels)'s.
 * returns all of the element interactions of all of the elements physically overlapping the player's coordinates.
 ### `getMapData()`
 * returns the data parsed from the Open Street Map API's response.
