@@ -33,14 +33,14 @@ osm.init();
 ## 📃 Documentation
 ### `init(elementInteractions)`
 * where `elementInteractions` is a customizable interface for programs that wish to run with more detailed Open Street Map functionality; optional.
-* `elementInteractions` can also be set later on by calling [`setFeatureData`](#setFeatureData(elementInteractions))).
+* `elementInteractions` can also be set later on by calling [`setFeatureData`](#setfeaturedataelementinteractions)).
 * asynchronous; returns once instance has been initialized.
 * returns nothing.
 ### `isReady()`
 * returns `true` if any OSM data has been loaded.
 * returns `false` if no OSM data has been loaded.
 ### `render()`
-* renders each element according to the customizable, optional element renderer declared in [`setElementRenderer`](#setElementRenderer(elementRenderer)).
+* renders each element according to the customizable, optional element renderer declared in [`setElementRenderer`](#setelementrendererelementrenderer).
 * returns nothing.
 ### `traverse(vel)`
 * where `vel` is an object of keys `lat` and `lon` which represent the distance desired to travel to a new coordinate.
@@ -54,12 +54,12 @@ osm.init();
 * an example sheet can be found [here](lib/elementInteractionsTemplate.js).
 * returns nothing.
 ### `getElementInteractions(els)`
-* where `els` is an array of `OsmElement` instances; intended to be used in conjunction with the result of [`getCollisions(player)`](#getCollisions(player)).
-* returns the data specified in the pre-defined element interactions from [`setFeatureData`](#setFeatureData(elementInteractions)).
+* where `els` is an array of `OsmElement` instances; intended to be used in conjunction with the result of [`getCollisions`](#getcollisionsplayer).
+* returns the data specified in the pre-defined element interactions from [`setFeatureData`](#setfeaturedataelementinteractions).
 ### `checkUnderneath(player)`
 * where `player` is a supposed object of keys `x` and `y` representing a relative position within the mapped bounds of the `MrWorldwide` instance.
-* this is an alias who's input acts as [`getCollisions`](getCollisions(player))'s and who's output acts as [`getElementInteractions`](getElementInteractions(els))'s.
-* shares the same return convention as [`getElementInteractions`](getElementInteractions(els))'s.
+* this is an alias who's input acts as [`getCollisions`](getcollisionsplayer)'s and who's output acts as [`getElementInteractions`](getelementinteractionsels)'s.
+* shares the same return convention as [`getElementInteractions`](getelementinteractionsels)'s.
 * returns all of the element interactions of all of the elements physically overlapping the player's coordinates.
 ### `getMapData()`
 * returns the data parsed from the Open Street Map API's response.
@@ -72,7 +72,7 @@ osm.init();
 * where `w` and `h` are the respective `mapWidth` and `mapHeight` values from the [initialization example](#-initialization).
 * returns nothing.
 ### `setElementRenderer(elementRenderer)`
-* where `elementRenderer` is a function that takes arguments `el` and `offset`. `el` is an `OsmElement` instance and `offset` is an object of keys `x` and `y` which represents the mapped distance from the center traversed without reloading. If [`traverse(vel)`](#traverse(vel)) has never been called, `offset` is negligible.
+* where `elementRenderer` is a function that takes arguments `el` and `offset`. `el` is an `OsmElement` instance and `offset` is an object of keys `x` and `y` which represents the mapped distance from the center traversed without reloading. If [`traverse`](#traversevel) has never been called, `offset` is negligible.
 * intended to render to a visual representation of all the elements of the loaded map. Some visual frameworks can be found [here](https://github.com/EthanThatOneKid/links#-visual).
 * returns nothing.
 ### `getElementInteractionsTemplate()`
