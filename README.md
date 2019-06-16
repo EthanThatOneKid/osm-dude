@@ -1,17 +1,17 @@
-# 🌐 Mr. Worldwide
+# 🌐 OSM Dude
 
-[![GitHub forks](https://img.shields.io/github/forks/EthanThatOneKid/mr-worldwide.svg?style=social&label=Fork)](https://github.com/EthanThatOneKid/mr-worldwide/fork)
-[![GitHub stars](https://img.shields.io/github/forks/EthanThatOneKid/mr-worldwide.svg?style=social&label=Star)][github]
-[![bundle size](https://img.shields.io/bundlephobia/min/mr-worldwide.svg)][npmpkg]
-[![npm downloads](https://img.shields.io/npm/dt/mr-worldwide.svg)][npmpkg]
+[![GitHub forks](https://img.shields.io/github/forks/EthanThatOneKid/osm-dude.svg?style=social&label=Fork)](https://github.com/EthanThatOneKid/osm-dude/fork)
+[![GitHub stars](https://img.shields.io/github/forks/EthanThatOneKid/osm-dude.svg?style=social&label=Star)][github]
+[![bundle size](https://img.shields.io/bundlephobia/min/osm-dude.svg)][npmpkg]
+[![npm downloads](https://img.shields.io/npm/dt/osm-dude.svg)][npmpkg]
 
 > Tiny OSM (Open Street Maps) API wrapper
 
 ## ⬇ Installation
-`npm i mr-worldwide`
+`npm i osm-dude`
 
 ## 🛠 Usage
-`const MrWorldwide = require('mr-worldwide');`
+`const MrWorldwide = require('osm-dude');`
 
 ## 🌟 Initialization
 ```
@@ -94,5 +94,5 @@ Contains information from [OpenStreetMap](https://www.openstreetmap.org/) which 
 
 Engineered with 💖 by [@EthanThatOneKid](https://github.com/EthanThatOneKid)
 
-[npmpkg]: https://www.npmjs.com/package/mr-worldwide
-[github]: https://github.com/EthanThatOneKid/mr-worldwide
+[npmpkg]: https://www.npmjs.com/package/osm-dude
+[github]: https://github.com/EthanThatOneKid/osm-dude
