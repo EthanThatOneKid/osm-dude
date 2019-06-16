@@ -11,11 +11,11 @@
 `npm i osm-dude`
 
 ## 🛠 Usage
-`const MrWorldwide = require('osm-dude');`
+`const OsmDude = require('osm-dude');`
 
 ## 🌟 Initialization
 ```
-const osm = new MrWorldwide(
+const osm = new OsmDude(
   lat, // float center latitude value
   lon, // float center longitude value
   latCoverage, // float total distance across latitude value
