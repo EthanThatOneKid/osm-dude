@@ -4,7 +4,7 @@ const MrWorldwide = require('./../index.js');
 
 // Constants
 const [lat, lon] = [33.788346, -117.971118];
-const padding = 0.000535;
+const padding = 0.001;
 const settings = {
   mapWidth: 1,
   mapHeight: 1
@@ -17,6 +17,6 @@ const settings = {
 
   const osm = new MrWorldwide(lat, lon, padding, null, settings);
   await osm.init();
-  console.log(osm.getMapData());
+  osm.log();
 
 })();
