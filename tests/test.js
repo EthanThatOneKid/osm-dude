@@ -1,5 +1,6 @@
 // Dependencies
 const MrWorldwide = require('./../index.js');
+// /* In Production: */ const MrWorldwide = require('mr-worldwide');
 
 // Constants
 const [lat, lon] = [33.788301, -117.97106];
@@ -10,9 +11,7 @@ const boundingBoxCoords = {
   minLon: lon - padding,
   maxLon: lon + padding
 };
-const boundingBoxPixels = {
-
-};
+const boundingBoxPixels = {w: 1, h: 1};
 
 // Helpers
 
