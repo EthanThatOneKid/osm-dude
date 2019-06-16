@@ -80,6 +80,7 @@ osm.init();
 ### `log()`
 * intended for debugging purposes.
 * prints to the console a summary of the data within the `MrWorldwide` instance.
+* returns an object that represents the summary printed to the console.
 
 ## Reference
 * [Amenities List](https://wiki.openstreetmap.org/wiki/Key:amenity)
