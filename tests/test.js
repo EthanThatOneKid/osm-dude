@@ -16,9 +16,10 @@ const boundingBoxPixels = {w: 1, h: 1};
 // Helpers
 
 // Main Process
-(() => {
+(async () => {
 
   const osm = new MrWorldwide(boundingBoxCoords, boundingBoxPixels);
-  console.log(osm);
+  await osm.init();
+  console.log(osm.getMapData());
 
 })();
