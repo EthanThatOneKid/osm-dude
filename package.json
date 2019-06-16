@@ -1,5 +1,5 @@
 {
-  "name": "mr-worldwide",
+  "name": "osm-dude",
   "version": "1.0.0",
   "description": "Tiny OSM (Open Street Maps) API Wrapper",
   "main": "index.js",
