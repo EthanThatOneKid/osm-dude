@@ -9,14 +9,19 @@ const settings = {
   mapWidth: 1,
   mapHeight: 1
 };
-
-// Helpers
+const tests = [
+  `Initializing OsmDude of bound ${padding}`
+];
 
 // Main Process
 (async () => {
 
   const osm = new OsmDude(lat, lon, padding, null, settings);
+
+  console.time(tests[0]);
   await osm.init();
+  console.timeEnd(tests[0]);
+
   osm.log();
 
 })();
