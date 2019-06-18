@@ -203,12 +203,6 @@ module.exports = class OsmParser {
     const xml = await response.text();
     xmlParser(xml, (err, res) => result = res);
     return !result ? xml : result;
-    if (!result) {
-      return xml;
-    } else {
-
-    }
-    return result;
 
   }
 
