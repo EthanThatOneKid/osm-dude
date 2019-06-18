@@ -32,5 +32,8 @@
   "homepage": "https://github.com/EthanThatOneKid/mr-worldwide#readme",
   "dependencies": {
     "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
   }
 }
