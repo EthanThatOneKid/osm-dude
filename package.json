@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node tests/test.js"
+    "test": "node tests/test.js",
+    "bundle": "node bundle.js"
   },
   "repository": {
     "type": "git",
