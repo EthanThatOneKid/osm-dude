@@ -1,16 +1,7 @@
 // Dependencies
-const {writeFileSync: w} = require('fs');
+const {createWriteStream: w} = require('fs');
 const browserify = require('browserify');
-
-// Helpers
-const streamToString = stream => {
-  const chunks = [];
-  return new Promise((resolve, reject) => {
-    stream.on('data', chunk => chunks.push(chunk));
-    stream.on('error', reject);
-    stream.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
-  });
-};
+const minify = require('minify-stream');
 
 // Main Process
 (async () => {
@@ -18,9 +9,8 @@ const streamToString = stream => {
   const b = browserify();
   b.add('./index.js');
 
-  const stream = b.bundle();
-  const result = await streamToString(stream);
-
-  w('./dist/bundle.js', result);
+  b.bundle()
+    .pipe(minify({sourceMap: false}))
+    .pipe(w('./dist/bundle.js'));
 
 })();
