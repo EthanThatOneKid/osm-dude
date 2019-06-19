@@ -13,7 +13,7 @@
 `npm i osm-dude`
 
 #### ⚡ Browser
-`<script src="https://combinatronics.com/EthanThatOneKid/osm-dude/master/dist/bundle.js"></script>``
+`<script src="https://combinatronics.com/EthanThatOneKid/osm-dude/master/dist/bundle.js"></script>`
 
 ## 🛠 Usage
 `const OsmDude = require('osm-dude');`
