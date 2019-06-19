@@ -87,6 +87,9 @@ osm.init();
 * prints to the console a summary of the data within the `MrWorldwide` instance.
 * returns an object that represents the summary printed to the console.
 
+## 📝 Examples
+* [Snow Globe](https://codepen.io/EthanDavidson/pen/vqKwvx)
+
 ## 📚 Reference
 * [Amenities List](https://wiki.openstreetmap.org/wiki/Key:amenity)
 * [Map Features List](https://wiki.openstreetmap.org/wiki/Map_Features)
