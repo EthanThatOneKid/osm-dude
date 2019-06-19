@@ -7,8 +7,13 @@
 
 > Tiny OSM (Open Street Maps) API wrapper
 
-## ⬇ Installation
+## 👇 Installation
+
+#### 💚 Node
 `npm i osm-dude`
+
+#### ⚡ Browser
+`<script src="https://combinatronics.com/EthanThatOneKid/osm-dude/master/dist/bundle.js"></script>``
 
 ## 🛠 Usage
 `const OsmDude = require('osm-dude');`
