@@ -7,8 +7,8 @@ const minify = require('minify-stream');
 (async () => {
 
   const b = browserify();
+  b.add('./index.js');
   b.require('./index.js');
-
   b.bundle()
     .pipe(minify({sourceMap: false}))
     .pipe(w('./dist/bundle.js'));
