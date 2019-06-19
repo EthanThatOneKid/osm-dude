@@ -1,6 +1,6 @@
 // Dependencies
 const OsmDude = require('./../index.js');
-/* In Production: */ // const MrWorldwide = require('osm-dude');
+/* In Production: */ // const OsmDude = require('osm-dude');
 
 // Constants
 const [lat, lon] = [33.788346, -117.971118];
