@@ -1,1 +1,1 @@
-module.exports = require('./lib/OsmWrapper.js', {expose: 'osm-dude'});
+module.exports = require('./lib/OsmWrapper.js');
