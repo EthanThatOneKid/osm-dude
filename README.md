@@ -52,7 +52,7 @@ osm.init();
 * asynchronous; returns once incoming data has been accounted for.
 * returns nothing.
 ### `getCollisions(player)`
-* where `player` is a supposed object of keys `x` and `y` representing a relative position within the mapped bounds of the `MrWorldwide` instance.
+* where `player` is a supposed object of keys `x` and `y` representing a relative position within the mapped bounds of the `OsmDude` instance.
 * returns an array of `OsmElement` instances which overlap with the player's 2d position.
 ### `setFeatureData(elementInteractions)`
 * where `elementInteractions` is a detailed object that helps your program know what to do based on an occurring landmark or what-have-you.
@@ -62,7 +62,7 @@ osm.init();
 * where `els` is an array of `OsmElement` instances; intended to be used in conjunction with the result of [`getCollisions`](#getcollisionsplayer).
 * returns the data specified in the pre-defined element interactions from [`setFeatureData`](#setfeaturedataelementinteractions).
 ### `checkUnderneath(player)`
-* where `player` is a supposed object of keys `x` and `y` representing a relative position within the mapped bounds of the `MrWorldwide` instance.
+* where `player` is a supposed object of keys `x` and `y` representing a relative position within the mapped bounds of the `OsmDude` instance.
 * this is an alias who's input acts as [`getCollisions`](#getcollisionsplayer)'s and who's output acts as [`getElementInteractions`](#getelementinteractionsels)'s.
 * therefore, shares the same input convention as [`getCollisions`](#getcollisionsplayer) and the same output convention as [`getElementInteractions`](#getelementinteractionsels).
 * returns all of the element interactions of all of the elements physically overlapping the player's coordinates.
@@ -84,7 +84,7 @@ osm.init();
 * returns an element interactions template as seen [here](lib/elementInteractionsTemplate.js).
 ### `log()`
 * intended for debugging purposes.
-* prints to the console a summary of the data within the `MrWorldwide` instance.
+* prints to the console a summary of the data within the `OsmDude` instance.
 * returns an object that represents the summary printed to the console.
 
 ## 📝 Examples
