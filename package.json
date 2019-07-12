@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node tests/test.js",
+    "test": "node examples/getting-started/index.js",
     "bundle": "node bundle.js"
   },
   "repository": {
