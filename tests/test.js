@@ -22,9 +22,6 @@ const tests = [
   await osm.init();
   console.timeEnd(tests[0]);
 
-  const minmax = osm.minmax();
-  console.log({minmax});
-
   osm.log();
 
 })();
