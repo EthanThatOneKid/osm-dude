@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EthanThatOneKid/mr-worldwide.git"
+    "url": "git+https://github.com/EthanThatOneKid/osm-dude.git"
   },
   "keywords": [
     "osm",
@@ -28,9 +28,9 @@
   "author": "EthanThatOneKid",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EthanThatOneKid/mr-worldwide/issues"
+    "url": "https://github.com/EthanThatOneKid/osm-dude/issues"
   },
-  "homepage": "https://github.com/EthanThatOneKid/mr-worldwide#readme",
+  "homepage": "https://github.com/EthanThatOneKid/osm-dude#readme",
   "dependencies": {
     "xml2js": "^0.4.19"
   },
