@@ -82,6 +82,9 @@ osm.init();
 * returns nothing.
 ### `getElementInteractionsTemplate()`
 * returns an element interactions template as seen [here](lib/elementInteractionsTemplate.js).
+### `minmax()`
+* returns an object with data detailing the furthest points of the current pool vertices given by the OSM data.
+* This may be useful for debugging purposes.
 ### `log()`
 * intended for debugging purposes.
 * prints to the console a summary of the data within the `OsmDude` instance.
