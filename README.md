@@ -26,8 +26,8 @@ const osm = new OsmDude(
   latCoverage, // float total distance across latitude value
   lonCoverage, // float total distance across longitude value; optional
   {
-    mapWidth, // value to map the coordinate boundaries to in the x-dimension; defaults to 1
-    mapHeight // value to map the coordinate boundaries to in the y-dimension; defaults to 1
+    mapWidth: mapWidth, // value to map the coordinate boundaries to in the x-dimension; defaults to 1
+    mapHeight: mapHeight // value to map the coordinate boundaries to in the y-dimension; defaults to 1
   } // settings
 );
 
