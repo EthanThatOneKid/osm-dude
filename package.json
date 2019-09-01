@@ -1,6 +1,6 @@
 {
   "name": "osm-dude",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny OSM (Open Street Maps) API Wrapper",
   "main": "index.js",
   "directories": {
