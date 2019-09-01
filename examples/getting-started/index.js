@@ -32,6 +32,13 @@ const tests = [
   await osm.init();
   console.timeEnd(tests[0]);
 
+  for (let i = 0; i < 1; i += 0.01) {
+    for (let j = 0; j < 1; j += 0.01) {
+      const els = osm.checkUnderneath({x: i, y: j});
+      console.log(els);
+    }
+  }
+
   osm.log();
 
 })();
