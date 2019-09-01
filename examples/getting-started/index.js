@@ -2,8 +2,18 @@
 const OsmDude = require('./../../index.js');
 /* In Production: */ // const OsmDude = require('osm-dude');
 
+// Helper
+const rndLocation = () => {
+  const minLat = 33.878368, maxLat = 33.888283,
+        minLon = -117.890531, maxLon = -117.880808;
+  return [
+    Math.random() * (maxLat - minLat) + minLat,
+    Math.random() * (maxLon - minLon) + minLon
+  ];
+};
+
 // Constants
-const [lat, lon] = [33.788346, -117.971118];
+const [lat, lon] = rndLocation();
 const padding = 0.001;
 const settings = {
   mapWidth: 1,
